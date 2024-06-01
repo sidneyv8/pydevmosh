@@ -1,3 +1,15 @@
 {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "plugins": [
+        {
+            "type": "add",
+            "pluginName": "fleet.python"
+        },
+        {
+            "type": "add",
+            "pluginName": "fleet.shell"
+        }
+    ],
+    "java.debugger.reloadClassesAfterCompilation": "Always",
+    "run.destination.stop.already.running": "Always"
 }
